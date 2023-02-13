@@ -11,9 +11,4 @@ then
     echo "PostgreSQL started"
 fi
 
-export FLASK_APP=app.py
-export FLASK_ENV=development
-
-python manage.py create_db
-
 exec "$@"
